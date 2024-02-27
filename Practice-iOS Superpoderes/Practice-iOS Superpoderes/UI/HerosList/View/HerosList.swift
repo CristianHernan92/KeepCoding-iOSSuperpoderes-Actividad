@@ -3,16 +3,15 @@ import Combine
 
 struct HerosList: View {
     
-    @State private var heros: [Result] = []
+    @State private var heros: [CharactersDataResult] = []
     
     var body: some View {
         NavigationStack{
             ScrollView{
                 ForEach(heros){ hero in
-                    
-                    Button(action: {
-                        
-                    }, label: {
+                    NavigationLink {
+                        HeroSeries(heroId: hero.id)
+                    } label: {
                         VStack{
                             VStack{
                                 //image
@@ -40,23 +39,23 @@ struct HerosList: View {
                             .padding(10)
                         }
                         .background(.gray.opacity(0.5))
-                        .opacity(0.8)
+                        .opacity(0.95)
                         .cornerRadius(15)
                         .padding(.top, 2)
                         .padding(.leading, 40)
                         .padding(.trailing, 40)
-                    })
+                    }
                 }
             }
         }
         .onAppear{
-            Network.getHeros { data in
-                heros = data
+            Network.getHeros { heros in
+                self.heros = heros
             }
         }
         .refreshable {
-            Network.getHeros { data in
-                heros = data
+            Network.getHeros { heros in
+                self.heros = heros
             }
         }
     }

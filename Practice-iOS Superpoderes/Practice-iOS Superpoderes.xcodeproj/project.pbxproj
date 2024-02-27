@@ -10,6 +10,8 @@
 		F12D1B452B7702AE00E47036 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B442B7702AE00E47036 /* Network.swift */; };
 		F12D1B472B7704E700E47036 /* HerosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B462B7704E700E47036 /* HerosList.swift */; };
 		F12D1B4A2B771AAE00E47036 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B492B771AAE00E47036 /* Characters.swift */; };
+		F18069122B85703F0091BE0F /* HeroSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18069112B85703F0091BE0F /* HeroSeries.swift */; };
+		F18069142B858C150091BE0F /* CharacterSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18069132B858C150091BE0F /* CharacterSeries.swift */; };
 		F1DFB3E92B72EFAB00FEB9EE /* Practice_iOS_SuperpoderesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB3E82B72EFAB00FEB9EE /* Practice_iOS_SuperpoderesApp.swift */; };
 		F1DFB3ED2B72EFAC00FEB9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DFB3EC2B72EFAC00FEB9EE /* Assets.xcassets */; };
 		F1DFB3F02B72EFAC00FEB9EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DFB3EF2B72EFAC00FEB9EE /* Preview Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		F12D1B462B7704E700E47036 /* HerosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosList.swift; sourceTree = "<group>"; };
 		F12D1B492B771AAE00E47036 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		F12D1B4B2B78155900E47036 /* Practice-iOS-Superpoderes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Practice-iOS-Superpoderes-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F18069112B85703F0091BE0F /* HeroSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSeries.swift; sourceTree = "<group>"; };
+		F18069132B858C150091BE0F /* CharacterSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSeries.swift; sourceTree = "<group>"; };
 		F1DFB3E52B72EFAB00FEB9EE /* Practice-iOS Superpoderes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice-iOS Superpoderes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DFB3E82B72EFAB00FEB9EE /* Practice_iOS_SuperpoderesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_iOS_SuperpoderesApp.swift; sourceTree = "<group>"; };
 		F1DFB3EC2B72EFAC00FEB9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,43 +84,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F12D1B3D2B77020D00E47036 /* ListaDeHeroes */ = {
+		F12D1B3D2B77020D00E47036 /* HerosList */ = {
 			isa = PBXGroup;
 			children = (
 				F12D1B422B77025D00E47036 /* View */,
-				F12D1B412B77025500E47036 /* ViewModel */,
 			);
-			path = ListaDeHeroes;
-			sourceTree = "<group>";
-		};
-		F12D1B3E2B77021B00E47036 /* SeriesDelHeroe */ = {
-			isa = PBXGroup;
-			children = (
-				F12D1B3F2B77022E00E47036 /* View */,
-				F12D1B402B77023600E47036 /* ViewModel */,
-			);
-			path = SeriesDelHeroe;
-			sourceTree = "<group>";
-		};
-		F12D1B3F2B77022E00E47036 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F12D1B402B77023600E47036 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		F12D1B412B77025500E47036 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
+			path = HerosList;
 			sourceTree = "<group>";
 		};
 		F12D1B422B77025D00E47036 /* View */ = {
@@ -131,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F12D1B492B771AAE00E47036 /* Characters.swift */,
+				F18069132B858C150091BE0F /* CharacterSeries.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +116,22 @@
 				F1DFB41C2B72F03E00FEB9EE /* Local */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		F180690F2B85702A0091BE0F /* HeroSeries */ = {
+			isa = PBXGroup;
+			children = (
+				F18069102B8570330091BE0F /* View */,
+			);
+			path = HeroSeries;
+			sourceTree = "<group>";
+		};
+		F18069102B8570330091BE0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F18069112B85703F0091BE0F /* HeroSeries.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F1DFB3DC2B72EFAB00FEB9EE = {
@@ -231,8 +221,8 @@
 		F1DFB41A2B72EFF500FEB9EE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F12D1B3E2B77021B00E47036 /* SeriesDelHeroe */,
-				F12D1B3D2B77020D00E47036 /* ListaDeHeroes */,
+				F180690F2B85702A0091BE0F /* HeroSeries */,
+				F12D1B3D2B77020D00E47036 /* HerosList */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -384,6 +374,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12D1B452B7702AE00E47036 /* Network.swift in Sources */,
+				F18069122B85703F0091BE0F /* HeroSeries.swift in Sources */,
+				F18069142B858C150091BE0F /* CharacterSeries.swift in Sources */,
 				F1DFB3F22B72EFAC00FEB9EE /* Persistence.swift in Sources */,
 				F1DFB3E92B72EFAB00FEB9EE /* Practice_iOS_SuperpoderesApp.swift in Sources */,
 				F1DFB3F52B72EFAC00FEB9EE /* Practice_iOS_Superpoderes.xcdatamodeld in Sources */,
