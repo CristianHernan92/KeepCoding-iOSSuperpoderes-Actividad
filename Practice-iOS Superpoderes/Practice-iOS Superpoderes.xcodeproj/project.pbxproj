@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F118626C2B8EB085001BC214 /* HerosList_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118626B2B8EB085001BC214 /* HerosList_Test.swift */; };
+		F11862732B8FC7BA001BC214 /* Characters_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11862722B8FC7BA001BC214 /* Characters_Test.swift */; };
+		F11862752B8FC7DB001BC214 /* CharacterSeries_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11862742B8FC7DB001BC214 /* CharacterSeries_Test.swift */; };
+		F118627E2B9351B5001BC214 /* Network_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118627D2B9351B5001BC214 /* Network_Test.swift */; };
 		F12D1B452B7702AE00E47036 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B442B7702AE00E47036 /* Network.swift */; };
 		F12D1B472B7704E700E47036 /* HerosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B462B7704E700E47036 /* HerosList.swift */; };
 		F12D1B4A2B771AAE00E47036 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D1B492B771AAE00E47036 /* Characters.swift */; };
@@ -17,9 +21,7 @@
 		F1DFB3F02B72EFAC00FEB9EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DFB3EF2B72EFAC00FEB9EE /* Preview Assets.xcassets */; };
 		F1DFB3F22B72EFAC00FEB9EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB3F12B72EFAC00FEB9EE /* Persistence.swift */; };
 		F1DFB3F52B72EFAC00FEB9EE /* Practice_iOS_Superpoderes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB3F32B72EFAC00FEB9EE /* Practice_iOS_Superpoderes.xcdatamodeld */; };
-		F1DFB3FF2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB3FE2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesTests.swift */; };
-		F1DFB4092B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB4082B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITests.swift */; };
-		F1DFB40B2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB40A2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITestsLaunchTests.swift */; };
+		F1DFB3FF2B72EFAC00FEB9EE /* HeroSeries_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFB3FE2B72EFAC00FEB9EE /* HeroSeries_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,13 @@
 			remoteGlobalIDString = F1DFB3E42B72EFAB00FEB9EE;
 			remoteInfo = "Practice-iOS Superpoderes";
 		};
-		F1DFB4052B72EFAC00FEB9EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1DFB3DD2B72EFAB00FEB9EE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1DFB3E42B72EFAB00FEB9EE;
-			remoteInfo = "Practice-iOS Superpoderes";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F118626B2B8EB085001BC214 /* HerosList_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosList_Test.swift; sourceTree = "<group>"; };
+		F11862722B8FC7BA001BC214 /* Characters_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters_Test.swift; sourceTree = "<group>"; };
+		F11862742B8FC7DB001BC214 /* CharacterSeries_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSeries_Test.swift; sourceTree = "<group>"; };
+		F118627D2B9351B5001BC214 /* Network_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Test.swift; sourceTree = "<group>"; };
 		F12D1B442B7702AE00E47036 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		F12D1B462B7704E700E47036 /* HerosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosList.swift; sourceTree = "<group>"; };
 		F12D1B492B771AAE00E47036 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
@@ -53,10 +52,7 @@
 		F1DFB3F12B72EFAC00FEB9EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F1DFB3F42B72EFAC00FEB9EE /* Practice_iOS_Superpoderes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practice_iOS_Superpoderes.xcdatamodel; sourceTree = "<group>"; };
 		F1DFB3FA2B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice-iOS SuperpoderesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1DFB3FE2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_iOS_SuperpoderesTests.swift; sourceTree = "<group>"; };
-		F1DFB4042B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice-iOS SuperpoderesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1DFB4082B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_iOS_SuperpoderesUITests.swift; sourceTree = "<group>"; };
-		F1DFB40A2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_iOS_SuperpoderesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1DFB3FE2B72EFAC00FEB9EE /* HeroSeries_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSeries_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +70,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1DFB4012B72EFAC00FEB9EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F118626D2B8FC4D3001BC214 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F118626F2B8FC4EB001BC214 /* HerosList */,
+				F118626E2B8FC4E1001BC214 /* HeroSeries */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F118626E2B8FC4E1001BC214 /* HeroSeries */ = {
+			isa = PBXGroup;
+			children = (
+				F1DFB3FE2B72EFAC00FEB9EE /* HeroSeries_Test.swift */,
+			);
+			path = HeroSeries;
+			sourceTree = "<group>";
+		};
+		F118626F2B8FC4EB001BC214 /* HerosList */ = {
+			isa = PBXGroup;
+			children = (
+				F118626B2B8EB085001BC214 /* HerosList_Test.swift */,
+			);
+			path = HerosList;
+			sourceTree = "<group>";
+		};
+		F11862702B8FC79B001BC214 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F11862712B8FC7A8001BC214 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F11862712B8FC7A8001BC214 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F11862722B8FC7BA001BC214 /* Characters_Test.swift */,
+				F11862742B8FC7DB001BC214 /* CharacterSeries_Test.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F11862792B93514C001BC214 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F118627A2B935152001BC214 /* Api */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F118627A2B935152001BC214 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F118627D2B9351B5001BC214 /* Network_Test.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		F12D1B3D2B77020D00E47036 /* HerosList */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +186,6 @@
 			children = (
 				F1DFB3E72B72EFAB00FEB9EE /* Practice-iOS Superpoderes */,
 				F1DFB3FD2B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests */,
-				F1DFB4072B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests */,
 				F1DFB3E62B72EFAB00FEB9EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,7 +195,6 @@
 			children = (
 				F1DFB3E52B72EFAB00FEB9EE /* Practice-iOS Superpoderes.app */,
 				F1DFB3FA2B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests.xctest */,
-				F1DFB4042B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,8 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				F12D1B4B2B78155900E47036 /* Practice-iOS-Superpoderes-Info.plist */,
-				F1DFB41A2B72EFF500FEB9EE /* UI */,
 				F1DFB4172B72EFD100FEB9EE /* App */,
+				F1DFB41A2B72EFF500FEB9EE /* UI */,
 				F12D1B482B7713C200E47036 /* Data */,
 				F1DFB4192B72EFDC00FEB9EE /* Domain */,
 				F1DFB4182B72EFD600FEB9EE /* Resources */,
@@ -179,18 +224,11 @@
 		F1DFB3FD2B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests */ = {
 			isa = PBXGroup;
 			children = (
-				F1DFB3FE2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesTests.swift */,
+				F118626D2B8FC4D3001BC214 /* UI */,
+				F11862792B93514C001BC214 /* Data */,
+				F11862702B8FC79B001BC214 /* Domain */,
 			);
 			path = "Practice-iOS SuperpoderesTests";
-			sourceTree = "<group>";
-		};
-		F1DFB4072B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F1DFB4082B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITests.swift */,
-				F1DFB40A2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITestsLaunchTests.swift */,
-			);
-			path = "Practice-iOS SuperpoderesUITests";
 			sourceTree = "<group>";
 		};
 		F1DFB4172B72EFD100FEB9EE /* App */ = {
@@ -221,8 +259,8 @@
 		F1DFB41A2B72EFF500FEB9EE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F180690F2B85702A0091BE0F /* HeroSeries */,
 				F12D1B3D2B77020D00E47036 /* HerosList */,
+				F180690F2B85702A0091BE0F /* HeroSeries */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -277,27 +315,11 @@
 				F1DFB3FC2B72EFAC00FEB9EE /* PBXTargetDependency */,
 			);
 			name = "Practice-iOS SuperpoderesTests";
+			packageProductDependencies = (
+			);
 			productName = "Practice-iOS SuperpoderesTests";
 			productReference = F1DFB3FA2B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F1DFB4032B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1DFB4142B72EFAC00FEB9EE /* Build configuration list for PBXNativeTarget "Practice-iOS SuperpoderesUITests" */;
-			buildPhases = (
-				F1DFB4002B72EFAC00FEB9EE /* Sources */,
-				F1DFB4012B72EFAC00FEB9EE /* Frameworks */,
-				F1DFB4022B72EFAC00FEB9EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F1DFB4062B72EFAC00FEB9EE /* PBXTargetDependency */,
-			);
-			name = "Practice-iOS SuperpoderesUITests";
-			productName = "Practice-iOS SuperpoderesUITests";
-			productReference = F1DFB4042B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -316,10 +338,6 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = F1DFB3E42B72EFAB00FEB9EE;
 					};
-					F1DFB4032B72EFAC00FEB9EE = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = F1DFB3E42B72EFAB00FEB9EE;
-					};
 				};
 			};
 			buildConfigurationList = F1DFB3E02B72EFAB00FEB9EE /* Build configuration list for PBXProject "Practice-iOS Superpoderes" */;
@@ -331,13 +349,14 @@
 				Base,
 			);
 			mainGroup = F1DFB3DC2B72EFAB00FEB9EE;
+			packageReferences = (
+			);
 			productRefGroup = F1DFB3E62B72EFAB00FEB9EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F1DFB3E42B72EFAB00FEB9EE /* Practice-iOS Superpoderes */,
 				F1DFB3F92B72EFAC00FEB9EE /* Practice-iOS SuperpoderesTests */,
-				F1DFB4032B72EFAC00FEB9EE /* Practice-iOS SuperpoderesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -353,13 +372,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F1DFB3F82B72EFAC00FEB9EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1DFB4022B72EFAC00FEB9EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,16 +400,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DFB3FF2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1DFB4002B72EFAC00FEB9EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1DFB40B2B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITestsLaunchTests.swift in Sources */,
-				F1DFB4092B72EFAC00FEB9EE /* Practice_iOS_SuperpoderesUITests.swift in Sources */,
+				F118627E2B9351B5001BC214 /* Network_Test.swift in Sources */,
+				F11862752B8FC7DB001BC214 /* CharacterSeries_Test.swift in Sources */,
+				F1DFB3FF2B72EFAC00FEB9EE /* HeroSeries_Test.swift in Sources */,
+				F11862732B8FC7BA001BC214 /* Characters_Test.swift in Sources */,
+				F118626C2B8EB085001BC214 /* HerosList_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,11 +415,6 @@
 			isa = PBXTargetDependency;
 			target = F1DFB3E42B72EFAB00FEB9EE /* Practice-iOS Superpoderes */;
 			targetProxy = F1DFB3FB2B72EFAC00FEB9EE /* PBXContainerItemProxy */;
-		};
-		F1DFB4062B72EFAC00FEB9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F1DFB3E42B72EFAB00FEB9EE /* Practice-iOS Superpoderes */;
-			targetProxy = F1DFB4052B72EFAC00FEB9EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -603,7 +605,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2V6HX2J9BY;
+				DEVELOPMENT_TEAM = "";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -623,7 +626,8 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2V6HX2J9BY;
+				DEVELOPMENT_TEAM = "";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
@@ -633,42 +637,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice-iOS Superpoderes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Practice-iOS Superpoderes";
-			};
-			name = Release;
-		};
-		F1DFB4152B72EFAC00FEB9EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2V6HX2J9BY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Organizacio-n-de-Cristian.Practice-iOS-SuperpoderesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Practice-iOS Superpoderes";
-			};
-			name = Debug;
-		};
-		F1DFB4162B72EFAC00FEB9EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2V6HX2J9BY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Organizacio-n-de-Cristian.Practice-iOS-SuperpoderesUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Practice-iOS Superpoderes";
 			};
 			name = Release;
 		};
@@ -698,15 +666,6 @@
 			buildConfigurations = (
 				F1DFB4122B72EFAC00FEB9EE /* Debug */,
 				F1DFB4132B72EFAC00FEB9EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1DFB4142B72EFAC00FEB9EE /* Build configuration list for PBXNativeTarget "Practice-iOS SuperpoderesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1DFB4152B72EFAC00FEB9EE /* Debug */,
-				F1DFB4162B72EFAC00FEB9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,14 +3,15 @@ import Combine
 
 struct HerosList: View {
     
-    @State private var heros: [CharactersDataResult] = []
+    @Binding var network: Network
+    @State var heros: [CharactersDataResult] = []
     
     var body: some View {
         NavigationStack{
             ScrollView{
                 ForEach(heros){ hero in
                     NavigationLink {
-                        HeroSeries(heroId: hero.id)
+                        HeroSeries(heroId: hero.id, network: $network)
                     } label: {
                         VStack{
                             VStack{
@@ -32,7 +33,7 @@ struct HerosList: View {
                                 Text(hero.name)
                                     .multilineTextAlignment(.center)
                                     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 30, maxHeight: .infinity)
-                                    .tint(.black)
+                                    .foregroundColor(.black)
                                     .bold()
                                     .opacity(0.5)
                             }
@@ -49,18 +50,24 @@ struct HerosList: View {
             }
         }
         .onAppear{
-            Network.getHeros { heros in
-                self.heros = heros
+            Task{
+                await getHerosList()
             }
         }
         .refreshable {
-            Network.getHeros { heros in
-                self.heros = heros
+            Task{
+                await getHerosList()
             }
         }
     }
 }
 
+extension HerosList{
+    func getHerosList() async{
+            self.heros = await network.getHeros()
+    }
+}
+
 #Preview {
-    HerosList()
+    HerosList(network: .constant(Network()))
 }

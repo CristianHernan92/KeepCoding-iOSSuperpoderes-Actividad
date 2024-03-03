@@ -4,7 +4,8 @@ import Combine
 struct HeroSeries: View {
     
     let heroId: Int
-    @State private var heroSeries: [CharacterSeriesDataResult] = []
+    @Binding var network: Network
+    @State var heroSeries: [CharacterSeriesDataResult] = []
     
     var body: some View {
             ScrollView{
@@ -55,18 +56,25 @@ struct HeroSeries: View {
                 }
             }
             .onAppear{
-                Network.getHeroSeries(characterId: heroId, completion: { heroSeries in
-                    self.heroSeries = heroSeries
-                })
+                Task{
+                    await getHeroSeries()
+                }
             }
             .refreshable {
-                Network.getHeroSeries(characterId: heroId, completion: { heroSeries in
-                    self.heroSeries = heroSeries
-                })
+                Task{
+                    await getHeroSeries()
+                }
             }
     }
 }
 
+extension HeroSeries{
+    func getHeroSeries() async{
+        self.heroSeries = await network.getHeroSeries(characterId: heroId)
+    }
+}
+
 #Preview {
-    HeroSeries(heroId: 1011334)
+    let idHero = 1011334
+    return HeroSeries(heroId: idHero,network: .constant(Network()))
 }
